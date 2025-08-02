@@ -1,0 +1,196 @@
+head {
+  background-color: #002F5F;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+li {
+  margin: auto;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.titleinformation * {
+  color: white;
+  margin: auto;
+}
+
+.title {
+  background-color: #9BB2CE;
+  margin: auto;
+} 
+
+.hide {
+    display: none;
+  }
+  
+  .note:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+  li {
+    display:inline;
+  }
+
+  .note {
+    color: red;
+  }
+
+  .diplomatic {
+    display: inline-block;
+    width: 350px;
+    vertical-align: text-top;
+    text-align: left;
+  }
+
+  .transcription {
+    display:inline-block;
+    width: 350px;
+    vertical-align: text-top;
+  }
+
+  .popup .popuptext {
+    visibility: hidden;
+    /**width: 300px;*/
+    background-color: #555;
+    color: #fff;
+    margin: auto;
+    /**text-align: center;*/
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  .popup {
+    position: relative;
+    display: inline-block;
+  }
+
+
+
+.editionWrapper {
+  max-width: 800px;
+  display: inline;
+}
+
+.headerBlock .innerTextBlock {
+  display: block;
+}
+
+.headerBlock {
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.innerTextBlock {
+  display: block;
+
+}
+
+  .textBlock {
+    display: block;
+    background-color: #ACDEE6;
+  }
+
+  .titleinformation {
+    margin: auto;
+    background-color: #002F5F;
+    text-align: center;
+  }
+
+  .cen-in {
+    background-color: #002F5F;
+    width: 896px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 17px;
+  }
+
+  .dummyHeader {
+    margin: auto;
+    text-align: center;
+  }
+
+  .main_b {
+     display: flex;
+     flex-direction: row;
+     margin: auto;
+  }
+
+  body {
+    background-color: #ACDEE6;
+  }
+
+  .apparat_wrapper {
+    font-style: italic;
+    background-color: #ACDEE6;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .flex-container {
+  /**display: none;*/
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+/** Dropdown stuff from w3schools */
+
+ /* Dropdown Button */
+ .dropbtn {
+  background-color: #002F5F;
+  color: white;
+ /* padding: 16px;
+  font-size: 16px;*/
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  /**position: relative;
+  display: inline-block;*/
+  text-align: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+

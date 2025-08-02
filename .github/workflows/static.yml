@@ -1,0 +1,75 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: use node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+    - run: npm install -g saxon-js
+    - run: npm install -g xslt3
+    # for each file in directory run command below
+    - run: touch doc-list.xml 
+    - run: echo "<files>" >> xslt/doc-list.xml
+    - run:  |
+            for file in data/Codd/*.xml 
+            do 
+              echo "<file>../$file</file>" >> xslt/doc-list.xml
+            done
+            echo "</files>" >> xslt/doc-list.xml
+    - run: cat xslt/doc-list.xml
+    - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:tmp.xml
+    - run: cat tmp.xml
+    - run: xslt3 -xsl:xslt/transform_list_ms.xsl -s:tmp.xml -o:tmp_2.html
+    - run: cat tmp_2.html
+    - uses: actions/upload-artifact@v4
+      with:
+        name: page
+        path: .
+        if-no-files-found: error
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: download-artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: page
+          path: .
+      - name: setup pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
