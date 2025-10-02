@@ -20,14 +20,14 @@
 					
 					var flexcontainers = document.getElementsByClassName("flex-container");
 					
-					for (var i = 0; i < flexcontainers.length; i++) {
+					for (var i = 0; i &lt; flexcontainers.length; i++) {
 						flexcontainers[i].classList.add("display-none");  
 						}
 							
 					var element = document.createElement("div");
 						var main_b = document.getElementById("main_b");
 							
-					for (var i = 0; i < divs.length; i++) {
+					for (var i = 0; i &lt; divs.length; i++) {
 							console.log(divs.length);
 								
 						var index = divs[i].innerText.toLowerCase().indexOf(pattern);
