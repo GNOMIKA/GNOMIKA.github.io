@@ -4,10 +4,11 @@ $(function(){
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-    let currentDate = document.querySelector("#currentDayTime");
-
-
   var tests = document.getElementsByClassName("toggleButton");
+  var element = document.getElementById("search_result");
+  if (element != null) {
+    element.remove();
+  }
 for(i = 0; i < tests.length; i++) {
     console.log(i);
     tests[i].addEventListener('click', function() {
@@ -15,7 +16,6 @@ for(i = 0; i < tests.length; i++) {
     console.log(this.getAttribute('value'));
     var id = this.getAttribute('value');
     const container = document.getElementById(id);
-
     container.classList.toggle("display-none");
 }); 
       
