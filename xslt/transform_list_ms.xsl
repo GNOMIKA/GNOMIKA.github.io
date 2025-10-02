@@ -31,7 +31,7 @@
 						}
 							
 					var element = document.createElement("div");
-					element.setAttribut("id","search_result");
+					element.setAttribute("id","search_result");
 					var main_b = document.getElementById("main_b");
 							
 					for (var i = 0; i &lt; divs.length; i++) {
