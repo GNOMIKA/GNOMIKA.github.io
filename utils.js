@@ -6,6 +6,7 @@ $(function(){
   document.addEventListener("DOMContentLoaded", function() {
   var tests = document.getElementsByClassName("toggleButton");
   var element = document.getElementById("search_result");
+  console.log(element);
   if (element != null) {
     element.remove();
   }
