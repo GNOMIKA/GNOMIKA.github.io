@@ -8,7 +8,7 @@
 				<link rel="import" href="import.html"/>
 				<script src="jquery-3.7.1.min.js"></script>
 				<script src="utils.js"></script>
-				<script>function search() {
+				<script><xsl:text>function search() {
 					
 					var name = document.getElementById("searchForm").elements["searchItem"].value;
 					
@@ -49,7 +49,7 @@
 						}  
 							main_b.appendChild(element);
 								
-						}</script>
+						}</xsl:text></script>
 			</head>
 			<body>
 				<div class="dummyHeader">
