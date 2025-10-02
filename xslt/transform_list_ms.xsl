@@ -25,7 +25,7 @@
 						}
 							
 					var element = document.createElement("div");
-						var main_b = document.getElementById("main_b");
+					var main_b = document.getElementById("main_b");
 							
 					for (var i = 0; i &lt; divs.length; i++) {
 							console.log(divs.length);
@@ -80,7 +80,7 @@
 					
 					
 					
-				<div class="main_b">
+				<div class="main_b" id="main_b">
 <!--				<div class="title">-->
 				<!--<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>-->
 				<!--<input id="transcription-checkbox" type="checkbox">Diplomatic</input>
