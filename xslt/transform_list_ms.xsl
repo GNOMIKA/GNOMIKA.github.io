@@ -10,6 +10,12 @@
 				<script src="utils.js"></script>
 				<script><xsl:text>function search() {
 					
+					var old_search_result = document.getElementById("search_result");
+
+					if (old_search_result != null) {  
+					    old_search_result.remove();
+					}
+
 					var name = document.getElementById("searchForm").elements["searchItem"].value;
 					
 					var pattern = name.toLowerCase();
@@ -25,6 +31,7 @@
 						}
 							
 					var element = document.createElement("div");
+					element.setAttribut("id","search_result");
 					var main_b = document.getElementById("main_b");
 							
 					for (var i = 0; i &lt; divs.length; i++) {
