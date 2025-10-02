@@ -8,24 +8,78 @@
 				<link rel="import" href="import.html"/>
 				<script src="jquery-3.7.1.min.js"></script>
 				<script src="utils.js"></script>
+				<script>function search() {
+					
+					var name = document.getElementById("searchForm").elements["searchItem"].value;
+					
+					var pattern = name.toLowerCase();
+					
+					var targetId = "";
+					
+					var divs = document.getElementsByClassName("diplomatic");
+					
+					var flexcontainers = document.getElementsByClassName("flex-container");
+					
+					for (var i = 0; i < flexcontainers.length; i++) {
+						flexcontainers[i].classList.add("display-none");  
+						}
+							
+					var element = document.createElement("div");
+						var main_b = document.getElementById("main_b");
+							
+					for (var i = 0; i < divs.length; i++) {
+							console.log(divs.length);
+								
+						var index = divs[i].innerText.toLowerCase().indexOf(pattern);
+								
+						if (index != -1) {
+							const bl = document.createElement("div");
+							var text = document.createTextNode(divs[i].innerText);
+							bl.appendChild(text);
+							element.appendChild(bl);
+								
+								
+								
+				console.log(divs[i].innerText);
+							//document.getElementById(divs[i].parentNode.parentNode.parentNode.parentNode.id).classList.toggle("display-none");
+								
+						//document.getElementById(divs[i].parentNode.parentNode.id).classList.toggle("display-none");
+							}
+								
+						}  
+							main_b.appendChild(element);
+								
+						}</script>
 			</head>
 			<body>
 				<div class="dummyHeader">
-
-                <div class="dropdown">
-				<button class="dropbtn">Text witnesses</button>
-				<div class="dropdown-content">
-				<xsl:for-each select="//tei:TEI">
-                                                <button>
-								    <xsl:attribute name="class">toggleButton</xsl:attribute>
-						    <xsl:attribute name="value">
-						        <xsl:value-of select="@xml:id"/>
-						    </xsl:attribute>
-							<xsl:value-of select=".//tei:titleStmt/tei:title"/>
-						</button>
-					    </xsl:for-each>
+            <div class="dropdown">
+				        <button class="dropbtn">Text witnesses</button>
+				        <div class="dropdown-content">
+				        <xsl:for-each select="//tei:TEI">
+                    <button>
+								        <xsl:attribute name="class">toggleButton</xsl:attribute>
+						            <xsl:attribute name="value">
+						                <xsl:value-of select="@xml:id"/>
+						            </xsl:attribute>
+							          <xsl:value-of select=".//tei:titleStmt/tei:title"/>
+						        </button>
+					      </xsl:for-each>
                 </div>
-			</div>   
+		        </div>
+					
+					  <form id="searchForm" action="javascript:search();">
+						    <div class="input-group">
+							      <button id="go" class="btn btn-default" type="button" onclick="document.getElementById('searchForm').submit(); return false;">
+							      </button>
+							      <input type="text" id="searchItem" class="form-control" placeholder="Search"/>
+							   </div>
+						</form>
+					
+					
+					
+					
+					
 				<div class="main_b">
 <!--				<div class="title">-->
 				<!--<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>-->

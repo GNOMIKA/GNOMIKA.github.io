@@ -17,12 +17,6 @@ for(i = 0; i < tests.length; i++) {
     const container = document.getElementById(id);
 
     container.classList.toggle("display-none");
-
-/**     if (container.style.display == "none") {
-        container.style.display = "flex";
-    } else {
-        container.style.display = "none";
-    } */
 }); 
       
 }
@@ -129,6 +123,34 @@ for(i = 0; i < tests.length; i++) {
           popups[i].classList.toggle("show");
       }
   }
+
+  function search() {
+
+    var name = document.getElementById("searchForm").elements["searchItem"].value;
+ 
+    var pattern = name.toLowerCase();
+ 
+    var targetId = "";
+ 
+    var divs = document.getElementsByClassName("diplomatic");
+ 
+    for (var i = 0; i < divs.length; i++) {
+
+       var index = divs[i].innerText.toLowerCase().indexOf(pattern);
+ 
+       if (index != -1) {
+ 
+          targetId = divs[i].parentNode.id;
+ 
+          document.getElementById(targetId).scrollIntoView();
+ 
+          break;
+ 
+       }
+ 
+    }  
+ 
+ }
 
 
 });
