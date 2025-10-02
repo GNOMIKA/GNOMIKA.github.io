@@ -78,8 +78,9 @@
 					  <form id="searchForm" action="javascript:search();">
 						    <div class="input-group">
 							      <button id="go" class="btn btn-default" type="button" onclick="document.getElementById('searchForm').submit(); return false;">
+								        Search
 							      </button>
-							      <input type="text" id="searchItem" class="form-control" placeholder="Search"/>
+							      <input type="text" id="searchItem" class="form-control" placeholder="Search the corpus"/>
 							   </div>
 						</form>
 					
@@ -88,12 +89,6 @@
 					
 					
 				<div class="main_b" id="main_b">
-<!--				<div class="title">-->
-				<!--<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>-->
-				<!--<input id="transcription-checkbox" type="checkbox">Diplomatic</input>
-				<input id="diplomatic-checkbox" type="checkbox">Transcription</input>-->
-				<!--</div>-->
-				<!--<xsl:apply-templates select="node()|@*"/>-->
 					
 					<xsl:apply-templates select="//tei:TEI"/>
 			    </div>
