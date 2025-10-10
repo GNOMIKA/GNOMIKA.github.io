@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="tei_ms_saws.rng" type="xml"?>
 <?oxygen SCHSchema="saws_relations.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Cod_Vat_Gr_1283">
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0" xml:id="Cod_Vat_Gr_1283">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Codex Vaticanus Graecus 1823</title>
             </titleStmt>
-            <publicationStmt><p>Sharing Ancient Wisdoms</p></publicationStmt>
+            <publicationStmt>
+                <p>Sharing Ancient Wisdoms</p>
+            </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -27,87 +30,85 @@
                     <titlePage type="cover">
                         <docTitle>
                             <titlePart>Vaticanus Graecus 1823</titlePart>
-                        </docTitle>                        
+                        </docTitle>
                     </titlePage>
                 </front>
-                    <body>
-                        <div xml:id="Part01">
-                            <div xml:id="E01">
-                                <ab xml:id="Herakleitos01">
-                                    <seg type="contentItem" xml:id="VatGr1823_Part01_E01_Herakleitos01_ci1">
-                                        <choice>
-                                            <reg>(VatGr1823 1) Ἡράκλειτος ὁ φιλόσοφος εἶπεν· Οἴησις προκοπῆς ἐγκόπη προκόπης.</reg>
-                                        </choice>
-                                    </seg>
-                                    <seg type="contentItem" xml:id="VatGr1823_Part01_E01_Herakleitos01_ci2">
-                                        <choice>
-                                            <reg>(VatGr1823 2) Ὀ αὐτὸς, θρασυνομένου τινὸς προς αὐτὸν καὶ πλείονα εἰδέναι λέγοντος, ἔφη· ὅσον ἔλαιον ἐγὼ εἰς τὸν λύχνον ἁμάλωσα, τοσοῦτον οἴνον συ οὐ πέποκας.</reg>  
-                                        </choice>
-                                    </seg>
-                                </ab>
-                            <div>
-                            <div xml:id="K01">                                
-                                <ab xml:id="Kleostratos01">
-                                    <seg type="contentItem" xml:id="VatGr1823_Part01_K01_Kleostratos01_ci1">
-                                        <choice>
-                                           <reg>(VatGr1823 3) Κλεόστρατος ὀ φιλοπότης ὡς μεθύοντά τις αὐτὸν ἐνουθέτει λέγων· οὐκ αἰσχύνῃ μεθύων; ἔφη· σὺ δὲ οὐκ αἰσχύνῃ μεθύοντά με νουθετῶν.</reg>
-                                        </choice>
-                                    </seg>
-                                </ab>
-                            </div>
-                            <div xml:id="N01">
-                                <ab xml:id="Nikokles01">
-                                    <seg type="contentItem" xml:id="VatGr1823_Part01_N01_Nikokles01_ci1">
-                                        <choice>
-                                            <reg>(VatGr1823 4) Νικόκλης τοὺς ἰάτρους ἔλεγεν εὐτυχεῖς ὄτι τὰς μὲν ἐπιτυχίας αὐτῶν ὁ ἥλιος ὁρᾷ, τὰς δὲ ἀποτυχίας ἡ γῆ καλύπτει.</reg>
-                                        </choice>
-                                    </seg>
-                                </ab>
-                            </div>
-                            <div xml:id="O01">
-                                    <ab xml:id="Oinopides01">
-                                    <seg type="contentItem" xml:id="VatGr1823_part01_O01_Oinopides01_ci1">
-                                        <choice>
-                                            <reg>(VatGr1823 5) Οἰνοπίδης ὁρὼν μειράκιον πολλὰ βίβλια κτώμενον· μὴ μ?(här syns något inte) κιβώτιον ἀλλὰ τὸ στήθος. </reg>
-                                        </choice>
-                                        </seg>
-                                    </ab>
-                                </div>
-                                <div xml:id="R01">
-                                    <ab xml:id="Romulus01">
-                                        <seg type="contentItem" xml:id="VatGr1823_Part01_R01_Romulus01_ci1">
-                                       <choice>
-                                            <reg>(VatGr1823 6) Ῥωμύλος κατανοήσας μειράκιον ἐπὶ πολυτελείας τῆς χλαμύδος σεμνυνόμενον ἔφη· ου παύσῃ [ἐφὴ] μειράκιον ἐπὶ προβάτου σεμνυνόμενον ἀρετῇ;</reg>
-                                        </choice>     
-                                        </seg>
-                                        <seg type="contentItem" xml:id="VatGr1823_Part01_R01_Romulus01_ci2">
-                                        <choice>
-                                            <reg>(VatGr1823 7) Ὁ αὐτὸς θεασάμενος μικρὰν πόλιν μεγάλας πύλας ἔχουσαν ἔφη· κλείσατε τὰς πύλας μὴ ἠ πόλις ἐξέλθοι.</reg>
-                                        </choice>    
-                                        </seg>
-                                    </ab>
-                                </div>
-                                <div xml:id="D01">
-                                    <ab xml:id="Demokritos01">
-                                        <seg type="contentItem" xml:id="VatGr1823_Part01_D01_Demokritos01_ci1">
-                                        <choice>
-                                            <reg>(VatGr1823 8) Δημόκριτος ἐρωθήτεις τί ἐστιν ἤρως εἶπε· πόθος ψυχὴν κολάζων.</reg>
-                                        </choice>
-                                        </seg>
-                                    </ab>
-                                    <ab xml:id="Diagoras01">
-                                        <seg type="contentItem" xml:id="VatGr1823_Part01_D01_Demokritos01_ci1">
-                                            <choice>
-                                                <reg>(VatGr1823 9) Διαγόρας ἐν τῷ πλέειν, χειμαζομένου τοῦ σκάφους, τὼν ἐπιβάτων λεγόντων ὅτι· διὰ τούτου τοῦ ἄνδρος ἀπολλύμεθα, δεῖξας πλήσιον ἕτερον πλοῖον κινδύνουν εἶπε· μήτι κακείνοις Διαγόρας πλεῖ;</reg>        
-                                            </choice>
-                                        </seg>
-                                    </ab>
-                                </div>
-                            </div>
+                <body>
+                    <div xml:id="Part01">
+                        <div xml:id="E01">
+                            <ab xml:id="Herakleitos01">
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_E01_Herakleitos01_ci1">
+                                    <choice>
+                                        <reg>(V1823 1) Ἡράκλειτος ὁ φιλόσοφος εἶπεν· Οἴησις προκοπῆς ἐγκόπη προκόπης.</reg>
+                                    </choice>
+                                </seg>
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_E01_Herakleitos01_ci2">
+                                    <choice>
+                                        <reg>(V1823 2) Ὀ αὐτὸς, θρασυνομένου τινὸς προς αὐτὸν καὶ πλείονα εἰδέναι λέγοντος, ἔφη· ὅσον ἔλαιον ἐγὼ εἰς τὸν λύχνον ἁμάλωσα, τοσοῦτον οἴνον συ οὐ πέποκας.</reg>
+                                    </choice>
+                                </seg>
+                            </ab>
                         </div>
-                    </div>           
-                    </body>
-             </text>
+                        <div xml:id="K01">
+                            <ab xml:id="Kleostratos01">
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_K01_Kleostratos01_ci1">
+                                    <choice>
+                                        <reg>(V1823 3) Κλεόστρατος ὀ φιλοπότης ὡς μεθύοντά τις αὐτὸν ἐνουθέτει λέγων· οὐκ αἰσχύνῃ μεθύων; ἔφη· σὺ δὲ οὐκ αἰσχύνῃ μεθύοντά με νουθετῶν.</reg>
+                                    </choice>
+                                </seg>
+                            </ab>
+                        </div>
+                        <div xml:id="N01">
+                            <ab xml:id="Nikokles01">
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_N01_Nikokles01_ci1">
+                                    <choice>
+                                        <reg>(V1823 4) Νικόκλης τοὺς ἰάτρους ἔλεγεν εὐτυχεῖς ὄτι τὰς μὲν ἐπιτυχίας αὐτῶν ὁ ἥλιος ὁρᾷ, τὰς δὲ ἀποτυχίας ἡ γῆ καλύπτει.</reg>
+                                    </choice>
+                                </seg>
+                            </ab>
+                        </div>
+                        <div xml:id="O01">
+                            <ab xml:id="Oinopides01">
+                                <seg type="contentItem" xml:id="VatGr1823_part01_O01_Oinopides01_ci1">
+                                    <choice>
+                                        <reg>(V1823 5) Οἰνοπίδης ὁρὼν μειράκιον πολλὰ βίβλια κτώμενον· μὴ μ?(här syns något inte) κιβώτιον ἀλλὰ τὸ στήθος. </reg>
+                                    </choice>
+                                </seg>
+                            </ab>
+                        </div>
+                        <div xml:id="R01">
+                            <ab xml:id="Romulus01">
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_R01_Romulus01_ci1">
+                                    <choice>
+                                        <reg>(V1823 6) Ῥωμύλος κατανοήσας μειράκιον ἐπὶ πολυτελείας τῆς χλαμύδος σεμνυνόμενον ἔφη· ου παύσῃ [ἐφὴ] μειράκιον ἐπὶ προβάτου σεμνυνόμενον ἀρετῇ;</reg>
+                                    </choice>
+                                </seg>
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_R01_Romulus01_ci2">
+                                    <choice>
+                                        <reg>(V1823 7) Ὁ αὐτὸς θεασάμενος μικρὰν πόλιν μεγάλας πύλας ἔχουσαν ἔφη· κλείσατε τὰς πύλας μὴ ἠ πόλις ἐξέλθοι.</reg>
+                                    </choice>
+                                </seg>
+                            </ab>
+                        </div>
+                        <div xml:id="D01">
+                            <ab xml:id="Demokritos01">
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_D01_Demokritos01_ci1">
+                                    <choice>
+                                        <reg>(V1823 8) Δημόκριτος ἐρωθήτεις τί ἐστιν ἤρως εἶπε· πόθος ψυχὴν κολάζων.</reg>
+                                    </choice>
+                                </seg>
+                            </ab>
+                            <ab xml:id="Diagoras01">
+                                <seg type="contentItem" xml:id="VatGr1823_Part01_D01_Demokritos01_ci1">
+                                    <choice>
+                                        <reg>(V1823 9) Διαγόρας ἐν τῷ πλέειν, χειμαζομένου τοῦ σκάφους, τὼν ἐπιβάτων λεγόντων ὅτι· διὰ τούτου τοῦ ἄνδρος ἀπολλύμεθα, δεῖξας πλήσιον ἕτερον πλοῖον κινδύνουν εἶπε· μήτι κακείνοις Διαγόρας πλεῖ;</reg>
+                                    </choice>
+                                </seg>
+                            </ab>
+                        </div>
+                    </div>
+                </body>
+            </text>
         </group>
     </text>
 </TEI>
