@@ -18,6 +18,11 @@ for(i = 0; i < tests.length; i++) {
     var id = this.getAttribute('value');
     const container = document.getElementById(id);
     container.classList.toggle("display-none");
+    var old_search_result = document.getElementById("search_result");
+
+	if (old_search_result != null) {  
+		old_search_result.remove();
+	}
 }); 
       
 }
