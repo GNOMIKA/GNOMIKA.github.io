@@ -16,8 +16,10 @@ for(i = 0; i < tests.length; i++) {
     console.log(this.className);
     console.log(this.getAttribute('value'));
     var id = this.getAttribute('value');
+    this.classList.toggle("checked");
     const container = document.getElementById(id);
     container.classList.toggle("display-none");
+    
     var old_search_result = document.getElementById("search_result");
 
 	if (old_search_result != null) {  
