@@ -169,7 +169,9 @@
 		<xsl:param name="seg_id"/>
 		<div class="editionWrapper">
 			<div class="diplomatic">
-				<xsl:value-of select="document('../helpers/xml_id_sigla_dictionary.xml')/dictionary/item[id='$seg_id']/siglum"/> <xsl:value-of select="normalize-space()"/>
+				<!--<xsl:value-of select="document('../helpers/xml_id_sigla_dictionary.xml')/dictionary/item[id=$seg_id]/siglum"/> <xsl:value-of select="normalize-space()"/>-->
+				<xsl:value-of select="document('../helpers/xml_id_sigla_dictionary.xml')/dictionary"/> <xsl:value-of select="normalize-space()"/>
+				
 			</div>
 		</div>
 	</xsl:template>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<item>
+    <id>ApGun_Laur_Part01_A01_AttikeGune01_ci1</id>
+    <siglum>Fi 1</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_AttikeGune01_ci2</id>
+    <siglum>Fi 2</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_AttikeGraus01_ci1</id>
+    <siglum>Fi 3</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_AttikeGraus01_ci2</id>
+    <siglum>Fi 4</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_AttikeEtaira01_ci1</id>
+    <siglum>Fi 5</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_Aspasia01_ci1</id>
+    <siglum>Fi 6</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_Kleopatra01_ci1</id>
+    <siglum>Fi 7</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_LakainaGune01_ci1</id>
+    <siglum>Fi 8</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_SamiaGune01_ci1</id>
+    <siglum>Fi 9</siglum>
+</item>
+<item>
+    <id>ApGun_Laur_Part01_A01_Phryne01_ci1</id>
+    <siglum>Fi 10</siglum>
+    </item>
+</dictionary>
