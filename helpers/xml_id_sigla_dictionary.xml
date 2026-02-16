@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-<item>
-    <id>ApGun_Laur_Part01_A01_AttikeGune01_ci1</id>
-    <siglum>Fi 1</siglum>
+<item id='ApGun_Laur_Part01_A01_AttikeGune01_ci1'>
+    Fi 1
 </item>
 <item>
     <id>ApGun_Laur_Part01_A01_AttikeGune01_ci2</id>
