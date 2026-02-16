@@ -3,40 +3,31 @@
 <item id='ApGun_Laur_Part01_A01_AttikeGune01_ci1'>
     Fi 1
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_AttikeGune01_ci2</id>
-    <siglum>Fi 2</siglum>
+<item id='ApGun_Laur_Part01_A01_AttikeGune01_ci2'>
+    Fi 2
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_AttikeGraus01_ci1</id>
-    <siglum>Fi 3</siglum>
+<item id='ApGun_Laur_Part01_A01_AttikeGraus01_ci1'>
+    Fi 3
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_AttikeGraus01_ci2</id>
-    <siglum>Fi 4</siglum>
+<item id='ApGun_Laur_Part01_A01_AttikeGraus01_ci2'>
+    Fi 4
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_AttikeEtaira01_ci1</id>
-    <siglum>Fi 5</siglum>
+<item id='ApGun_Laur_Part01_A01_AttikeEtaira01_ci1'>
+    Fi 5
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_Aspasia01_ci1</id>
-    <siglum>Fi 6</siglum>
+<item id='ApGun_Laur_Part01_A01_Aspasia01_ci1'>
+    Fi 6
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_Kleopatra01_ci1</id>
-    <siglum>Fi 7</siglum>
+<item id='ApGun_Laur_Part01_A01_Kleopatra01_ci1'>
+    Fi 7
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_LakainaGune01_ci1</id>
-    <siglum>Fi 8</siglum>
+<item id='ApGun_Laur_Part01_A01_LakainaGune01_ci1'>
+    Fi 8
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_SamiaGune01_ci1</id>
-    <siglum>Fi 9</siglum>
+<item id='ApGun_Laur_Part01_A01_SamiaGune01_ci1'>
+    Fi 9
 </item>
-<item>
-    <id>ApGun_Laur_Part01_A01_Phryne01_ci1</id>
-    <siglum>Fi 10</siglum>
-    </item>
+<item id='ApGun_Laur_Part01_A01_Phryne01_ci1'>
+    Fi 10
+</item>
 </dictionary>
