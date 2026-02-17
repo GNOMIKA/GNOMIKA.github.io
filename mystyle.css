@@ -11,6 +11,10 @@ ul {
   overflow: hidden;
 }
 
+hi {
+  font: bold;
+}
+
 li {
   margin: auto;
   float: left;
