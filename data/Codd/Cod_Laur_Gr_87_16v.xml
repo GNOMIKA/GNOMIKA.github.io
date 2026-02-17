@@ -36,66 +36,66 @@
                                 <ab xml:id="AttikeGune01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGune01_ci1">
                                         <choice>
-                                            <reg>(ApGun 1) Ἀττικὴ γυνὴ εἰπόντος τινὸς ὡς καλός ἐστιν αὐτῇ ὁ πῆχυς εἶπεν· ἀλλ’ οὐ δημόσιος.</reg>
+                                            <reg>Ἀττικὴ γυνὴ εἰπόντος τινὸς ὡς καλός ἐστιν αὐτῇ ὁ πῆχυς εἶπεν· ἀλλ’ οὐ δημόσιος.</reg>
                                         </choice>
                                     </seg>
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGune01_ci2">
                                         <choice>
-                                            <reg>(ApGun 2) Ἀττικὴ γυνὴ ἰδοὺσα ἐπὶ θυρῶν γαμεῖν μέλλοντος· Ἡρακλῆς ἐνθάδε κατοίκει, μήδεν εἰσίτω κακόν, εἶπεν· νῦν οὔν ἡ γυνὴ μὴ εἰσέλθῃ.</reg>  
+                                            <reg>Ἀττικὴ γυνὴ ἰδοὺσα ἐπὶ θυρῶν γαμεῖν μέλλοντος· Ἡρακλῆς ἐνθάδε κατοίκει, μήδεν εἰσίτω κακόν, εἶπεν· νῦν οὔν ἡ γυνὴ μὴ εἰσέλθῃ.</reg>  
                                         </choice>
                                     </seg>
                                 </ab>
                                 <ab xml:id="AttikeGraus01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGraus01_ci1">
                                         <choice>
-                                           <reg>(ApGun 3) Ἀττικὴ γραὺς ἐρωτηθεῖσα ἐν συμποσίῳ εἰ θνήτος ὁ Διονύσιος, ἰδοῦσα κλεπτόμενον οἶνον εἶιπε· ναὶ θνητὸς· εἶδον γὰρ αὐτὸν ἐκφερόμενον.</reg>
+                                           <reg>Ἀττικὴ γραὺς ἐρωτηθεῖσα ἐν συμποσίῳ εἰ θνήτος ὁ Διονύσιος, ἰδοῦσα κλεπτόμενον οἶνον εἶιπε· ναὶ θνητὸς· εἶδον γὰρ αὐτὸν ἐκφερόμενον.</reg>
                                         </choice>
                                     </seg>
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGraus01_ci2">
                                         <choice>
-                                            <reg>(ApGun 4) Ἀττικὴ γραὺς ἰδοῦσα νεανίσκον οἶνον ἐκχέοντα εἶπεν· Οἰνέα Πηλέα ἐποίησας.</reg>
+                                            <reg>Ἀττικὴ γραὺς ἰδοῦσα νεανίσκον οἶνον ἐκχέοντα εἶπεν· Οἰνέα Πηλέα ἐποίησας.</reg>
                                         </choice>
                                     </seg>
                                 </ab>
                                 <ab xml:id="AttikeHetaira01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeEtaira01_ci1">
                                         <choice>
-                                            <reg>(ApGun 5) Ἀττικὴ ἑταίρα προσαγγελομένου <persName key="Philippus"><name>Φιλίππου</name></persName> <placeName key="https://pleiades.stoa.org/places/579885">ταῖς Ἀθήναις</placeName> προσβάλειν ἐξέλθουσα ἐμίγη αὐτῷ καὶ παρεκάλει ὑποστρέφειν τοῦ δ’ εἴποντος· ὤμοσα εἰς <placeName key="https://pleiades.stoa.org/places/579888">τὴν Ἀττικὴν</placeName> ἐμβάλειν καὶ οὐκ ἄν ὑποστρέφω εἰ μὴ τοῦτο ποιήσω, ἐκείνη· τοῦ λοίπου, ἔφη, ὑπόστρεφε ἰδοῦ ἐμβέβληκας <placeName key="https://pleiades.stoa.org/places/579888">τὴν Ἁττικὴν</placeName>. ὁ δὲ θαύμασας αὐτὴν ὑπέστρεψεν.</reg>
+                                            <reg>Ἀττικὴ ἑταίρα προσαγγελομένου <persName key="Philippus"><name>Φιλίππου</name></persName> <placeName key="https://pleiades.stoa.org/places/579885">ταῖς Ἀθήναις</placeName> προσβάλειν ἐξέλθουσα ἐμίγη αὐτῷ καὶ παρεκάλει ὑποστρέφειν τοῦ δ’ εἴποντος· ὤμοσα εἰς <placeName key="https://pleiades.stoa.org/places/579888">τὴν Ἀττικὴν</placeName> ἐμβάλειν καὶ οὐκ ἄν ὑποστρέφω εἰ μὴ τοῦτο ποιήσω, ἐκείνη· τοῦ λοίπου, ἔφη, ὑπόστρεφε ἰδοῦ ἐμβέβληκας <placeName key="https://pleiades.stoa.org/places/579888">τὴν Ἁττικὴν</placeName>. ὁ δὲ θαύμασας αὐτὴν ὑπέστρεψεν.</reg>
                                         </choice>
                                     </seg>
                                 </ab>
                                 <ab xml:id="Aspasia01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_Aspasia01_ci1">
                                         <choice>
-                                            <reg>(ApGun 6) <persName key="Aspasia"><name>Ἀσπασία</name></persName> ἐρωθητεῖσα διὰ τί κατὰ μὲν τῶν γυναικῶν θάνατός ἐστιν ἔαν ἄλλῳ πλησιάσωσι, κατὰ δὲ τῶν ἄνδρων οὔ, εἶπεν ὅτι ἄνδρες ἦσαν οἰ ταῦτα νομοθετήσαντες, οὐ γυναῖκες.</reg>
+                                            <reg><persName key="Aspasia"><name>Ἀσπασία</name></persName> ἐρωθητεῖσα διὰ τί κατὰ μὲν τῶν γυναικῶν θάνατός ἐστιν ἔαν ἄλλῳ πλησιάσωσι, κατὰ δὲ τῶν ἄνδρων οὔ, εἶπεν ὅτι ἄνδρες ἦσαν οἰ ταῦτα νομοθετήσαντες, οὐ γυναῖκες.</reg>
                                         </choice>
                                     </seg>
                                 </ab>
                                 <ab xml:id="Kleopatra01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_Kleopatra01_ci1">
                                         <choice>
-                                            <reg>(ApGun 7) Κλεοπάτρα, κρινομένου τινὸς ἐπ’ αὐτῆς ὡς φθείραντος μειράκιον, ὅ διὰ τὴν αἰσχύνην διεχρήσατο ἑαυτοῦ, ἔφη· ὅπου ὁ παθὼν θάνατον αντιλλάξατο, τὶ τὸν δράσοντα ἄξιον παθεῖν;</reg>
+                                            <reg>Κλεοπάτρα, κρινομένου τινὸς ἐπ’ αὐτῆς ὡς φθείραντος μειράκιον, ὅ διὰ τὴν αἰσχύνην διεχρήσατο ἑαυτοῦ, ἔφη· ὅπου ὁ παθὼν θάνατον αντιλλάξατο, τὶ τὸν δράσοντα ἄξιον παθεῖν;</reg>
                                         </choice>
                                     </seg>
                                 </ab>
                                 <ab xml:id="LakainaGune01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_LakainaGune01_ci1">
                                         <choice>
-                                            <reg>(ApGun 8) Λακαῖνα γυνὴ σεμνυνομένου τοῦ υἱοῦ αὐτὴς ὅτι μόνος ἐκ παρατάξεως ἐσώθη τὼν λοίπων ἀποθανόντων, ἔφη· οὐκ αἰσχύνῃ μόνος ζῶν;</reg>
+                                            <reg>Λακαῖνα γυνὴ σεμνυνομένου τοῦ υἱοῦ αὐτὴς ὅτι μόνος ἐκ παρατάξεως ἐσώθη τὼν λοίπων ἀποθανόντων, ἔφη· οὐκ αἰσχύνῃ μόνος ζῶν;</reg>
                                         </choice>
                                     </seg> 
                                 </ab>
                                 <ab xml:id="SamiaGune01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_SamiaGune01_ci1">
                                         <choice>
-                                            <reg>(ApGun 9) &lt;Σαμ&gt;ία γυνὴ πότην ἔχουσα ἄνδρα ἔφη· οὐ χρὴ παννύχιον πίνειν βουληφόρον ἄνδρα· ὁ δὲ, ἀπόλοιτο ὁ γράμματά σε δίδαξας, εφη, ἡ δὲ· ὁ σὲ μὴ δίδαξας.</reg>
+                                            <reg>&lt;Σαμ&gt;ία γυνὴ πότην ἔχουσα ἄνδρα ἔφη· οὐ χρὴ παννύχιον πίνειν βουληφόρον ἄνδρα· ὁ δὲ, ἀπόλοιτο ὁ γράμματά σε δίδαξας, εφη, ἡ δὲ· ὁ σὲ μὴ δίδαξας.</reg>
                                         </choice>
                                     </seg>
                                 </ab>
                                 <ab xml:id="Phryne01">
                                     <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_Phryne01_ci1">
                                         <choice>
-                                            <reg> (ApGun 10) Φρύνη ἡ ἑταίρα νέου τινὸς ἄγρον πεπράκοτος καὶ δι’ ἀρρώσιαν χλώρου ὄντος, νεάνισκε, ἔφη, τὶ χλῶρον εἶ; μὴ τὴν γῆν εσθίεις;</reg>                                    
+                                            <reg>Φρύνη ἡ ἑταίρα νέου τινὸς ἄγρον πεπράκοτος καὶ δι’ ἀρρώσιαν χλώρου ὄντος, νεάνισκε, ἔφη, τὶ χλῶρον εἶ; μὴ τὴν γῆν εσθίεις;</reg>                                    
                                         </choice>
                                     </seg>
                             </ab> 
