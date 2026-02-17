@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Codex Laurentianus Graecus 87 16</title>
+                <title>Codex Laurentianus Graecus 87.16</title>
             </titleStmt>
             <publicationStmt><p>Sharing Ancient Wisdoms</p></publicationStmt>
             <sourceDesc>
@@ -26,7 +26,7 @@
                 <front>
                     <titlePage type="cover">
                         <docTitle>
-                            <titlePart>Apophthegmata gynaikon (Laurentiana)</titlePart>
+                            <titlePart>Laurentianus Graecus 87.16</titlePart>
                         </docTitle>                        
                     </titlePage>
                 </front>
