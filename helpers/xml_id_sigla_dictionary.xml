@@ -30,4 +30,52 @@
 <item id='ApGun_Laur_Part01_A01_Phryne01_ci1'>
     Fi 10
 </item>
+<!-- V 1823 -->
+    <item id ='VatGr1823_Part01_E01_Herakleitos01_ci1'>
+    V1823 1    
+    </item>
+    <item id ='VatGr1823_Part01_E01_Herakleitos01_ci2'>
+    V1823 2
+    </item>
+    <item id='VatGr1823_Part01_K01_Kleostratos01_ci1'>
+        V1823 3
+    </item>
+    <item id='VatGr1823_Part01_N01_Nikokles01_ci1'>
+        V1823 4
+    </item>
+    <item id='VatGr1823_part01_O01_Oinopides01_ci1'>
+        V1823 5
+    </item>
+    <item id='VatGr1823_Part01_R01_Romulus01_ci1'>
+        V1823 6
+    </item>
+    <item id='VatGr1823_Part01_R01_Romulus01_ci'>
+        V1823 7
+    </item>
+    <item id='VatGr1823_Part01_D01_Demokritos01_ci1'>
+        V1823 8
+    </item>
+    <item id='VatGr1823_Part01_D01_Demokritos01_ci1'>
+        V1823 9
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
+    <item id=''>
+    </item>
 </dictionary>
