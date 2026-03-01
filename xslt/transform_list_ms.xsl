@@ -169,7 +169,7 @@
 		<xsl:param name="seg_id"/>
 		<div class="editionWrapper">
 			<div class="diplomatic">
-				<hi><xsl:value-of select="document('../helpers/xml_id_sigla_dictionary.xml')/dictionary/item[@id=$seg_id]"/></hi> <xsl:value-of select="normalize-space()"/>
+				<xsl:value-of select="normalize-space()"/>
 			</div>
 		</div>
 	</xsl:template>
@@ -198,7 +198,10 @@
 	<xsl:template match="text()">
 		<xsl:value-of select="normalize-space()"/>
 	</xsl:template>
-	<xsl:template match="tei:note">
+	<xsl:template match="tei:note[@type='source']">
+		<hi>
+			<xsl:value-of select="normalize-space()"/>
+		</hi>
 	<!--	<xsl:choose>
 			<xsl:when test=". = ''"/>
 			<xsl:otherwise>
