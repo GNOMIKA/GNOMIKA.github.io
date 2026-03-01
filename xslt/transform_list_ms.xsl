@@ -167,7 +167,7 @@
 	</xsl:template>
 	<xsl:template match="tei:reg">
 		<xsl:param name="seg_id"/>
-		<xsl:apply-templates select="tei:note"/>
+		<xsl:apply-templates select="tei:note[@type='source']"/>
 		<div class="editionWrapper">
 			<div class="diplomatic">
 				<xsl:value-of select="normalize-space()"/>
