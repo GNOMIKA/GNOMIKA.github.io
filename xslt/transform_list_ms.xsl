@@ -173,7 +173,7 @@
 		</div>
 	</xsl:template>
 	
-	<xsl:template match="tei:reg//[not(tei:note)]">
+	<xsl:template match="tei:reg//*[not(tei:note)]">
 		<xsl:value-of select="normalize-space()"/>
 	</xsl:template>
 
