@@ -150,9 +150,7 @@
 						    <xsl:attribute name="id">
 							    <xsl:value-of select="$id"/>
 							</xsl:attribute>
-							<xsl:apply-templates>
-								<xsl:with-param name="seg_id"><xsl:value-of select="$id"/></xsl:with-param>
-							</xsl:apply-templates>
+							<xsl:apply-templates/>
 						</div>
 					</div>
 				</xsl:otherwise>
@@ -160,13 +158,13 @@
 		</xsl:for-each>
 	</xsl:template>
 	<xsl:template match="tei:choice">
-		<xsl:param name="seg_id"/>
-		<xsl:apply-templates select="tei:reg">
-			<xsl:with-param name="seg_id"><xsl:value-of select="$seg_id"/></xsl:with-param>
-		</xsl:apply-templates>
+		<!--<xsl:param name="seg_id"/>-->
+		<xsl:apply-templates select="tei:reg"/>
+		<!--	<xsl:with-param name="seg_id"><xsl:value-of select="$seg_id"/></xsl:with-param>
+		</xsl:apply-templates>-->
 	</xsl:template>
 	<xsl:template match="tei:reg">
-		<xsl:param name="seg_id"/>
+		<!--<xsl:param name="seg_id"/>-->
 		<xsl:apply-templates select="tei:note[@type='source']"/>
 		<div class="editionWrapper">
 			<div class="diplomatic">
