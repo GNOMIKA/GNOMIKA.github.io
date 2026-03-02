@@ -49,7 +49,7 @@
 
 
 							for (var y = 0; y &lt; varDivs.length; y++) {
-									console.log(varDivs[y]);
+									console.log(varDivs[y].nodeName);
 							}
 							
 							var text = document.createTextNode(divs[i].innerText);
