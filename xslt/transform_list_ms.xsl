@@ -49,11 +49,15 @@
 
 
 							for (var y = 0; y &lt; varDivs.length; y++) {
-									console.log(varDivs[y].nodeName);
+									if (varDivs[y].nodeName == 'HI') {
+										resultDiv.appendChild(varDivs[y]); 
+									}
+									else { var text = varDivs[y].innerText;
+							resultDiv.appendChild(text);
+							}
 							}
 							
-							var text = document.createTextNode(divs[i].innerText);
-							resultDiv.appendChild(text);
+							
 							element.appendChild(resultDiv);
 								
 								
