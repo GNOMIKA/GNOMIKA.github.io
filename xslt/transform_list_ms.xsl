@@ -194,9 +194,10 @@
 		<xsl:value-of select="."/>
 	</xsl:template>
 	<!--<xsl:template match="tei:lb"><xsl:value-of select="concat(' [',./@n,'] ')"/></xsl:template>-->
-	<xsl:template match="text()">
+	<!--<xsl:template match="text()">
 		<xsl:value-of select="normalize-space()"/>
-	</xsl:template>
+	</xsl:template>-->
+	<xsl:template match="tei:note"/>
 	<xsl:template match="tei:note[@type='source']">
 		<hi>
 			<xsl:value-of select="normalize-space()"/>
