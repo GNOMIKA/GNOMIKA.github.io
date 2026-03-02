@@ -165,13 +165,18 @@
 	</xsl:template>
 	<xsl:template match="tei:reg">
 		<!--<xsl:param name="seg_id"/>-->
-		<xsl:apply-templates select="tei:note[@type='source']"/>
+<!--		<xsl:apply-templates select="tei:note[@type='source']"/>-->
 		<div class="editionWrapper">
 			<div class="diplomatic">
-				<xsl:value-of select="normalize-space()"/>
+				<xsl:apply-templates/>
 			</div>
 		</div>
 	</xsl:template>
+	
+	<xsl:template match="tei:reg//[not(tei:note)]">
+		<xsl:value-of select="normalize-space()"/>
+	</xsl:template>
+
 	<xsl:template match="tei:hi">
 		<b>
 			<xsl:value-of select="."/>
@@ -198,6 +203,7 @@
 		<xsl:value-of select="normalize-space()"/>
 	</xsl:template>-->
 	<xsl:template match="tei:note"/>
+
 	<xsl:template match="tei:note[@type='source']">
 		<hi>
 			<xsl:value-of select="normalize-space()"/>
