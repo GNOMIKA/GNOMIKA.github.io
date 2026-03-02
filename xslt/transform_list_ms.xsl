@@ -34,16 +34,27 @@
 					element.setAttribute("id","search_result");
 					var main_b = document.getElementById("main_b");
 							
+
+          
+
 					for (var i = 0; i &lt; divs.length; i++) {
 							console.log(divs.length);
 								
 						var index = divs[i].innerText.toLowerCase().indexOf(pattern);
 								
 						if (index != -1) {
-							const bl = document.createElement("div");
+							const resultDiv = document.createElement("div");
+							
+							var varDivs = divs[i].childNodes; 
+
+
+							for (var y = 0; y &lt; varDivs.length; y++) {
+									console.log(varDivs[y]);
+							}
+							
 							var text = document.createTextNode(divs[i].innerText);
-							bl.appendChild(text);
-							element.appendChild(bl);
+							resultDiv.appendChild(text);
+							element.appendChild(resultDiv);
 								
 								
 								
@@ -158,14 +169,9 @@
 		</xsl:for-each>
 	</xsl:template>
 	<xsl:template match="tei:choice">
-		<!--<xsl:param name="seg_id"/>-->
 		<xsl:apply-templates select="tei:reg"/>
-		<!--	<xsl:with-param name="seg_id"><xsl:value-of select="$seg_id"/></xsl:with-param>
-		</xsl:apply-templates>-->
 	</xsl:template>
 	<xsl:template match="tei:reg">
-		<!--<xsl:param name="seg_id"/>-->
-<!--		<xsl:apply-templates select="tei:note[@type='source']"/>-->
 		<div class="editionWrapper">
 			<div class="diplomatic">
 				<xsl:apply-templates/>
@@ -198,25 +204,12 @@
 	<xsl:template match="tei:ex">
 		<xsl:value-of select="."/>
 	</xsl:template>
-	<!--<xsl:template match="tei:lb"><xsl:value-of select="concat(' [',./@n,'] ')"/></xsl:template>-->
-	<!--<xsl:template match="text()">
-		<xsl:value-of select="normalize-space()"/>
-	</xsl:template>-->
 	<xsl:template match="tei:note"/>
 
 	<xsl:template match="tei:note[@type='source']">
 		<hi>
 			<xsl:value-of select="normalize-space()"/>
 		</hi>
-	<!--	<xsl:choose>
-			<xsl:when test=". = ''"/>
-			<xsl:otherwise>
-				<button onclick="event.stopPropagation(); myFunction(this);">*</button>
-				<div class="hide">
-					<xsl:value-of select="."/>
-				</div>
-			</xsl:otherwise>
-		</xsl:choose>-->
 	</xsl:template>
 
 	<xsl:template name="correct_link">
