@@ -49,7 +49,7 @@
 
 
 							for (var y = 0; y &lt; varDivs.length; y++) {
-									if (varDivs[y].nodeName == 'HI') {
+									if (varDivs[y].nodeName == 'HI' && varDivs[y].innerText != null) {
 										const hi = document.createElement("hi");
 										hi.appendChild(varDivs[y].innerText);
 										resultDiv.appendChild(hi); 
