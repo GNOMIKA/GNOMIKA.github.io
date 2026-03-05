@@ -55,7 +55,7 @@
 										hi.appendChild(text);
 										resultDiv.appendChild(hi); 
 									}
-									else { var text = document.createTextNode(varDivs[y].innerText);
+									else { var text = document.createTextNode(varDivs[y].nodeValue);
 							resultDiv.appendChild(text);
 							}
 							}
