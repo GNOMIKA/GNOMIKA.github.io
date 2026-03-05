@@ -51,7 +51,8 @@
 							for (var y = 0; y &lt; varDivs.length; y++) {
 									if (varDivs[y].nodeName == 'HI' &amp;&amp; varDivs[y].innerText != null) {
 										const hi = document.createElement("hi");
-										hi.appendChild(varDivs[y].innerText);
+										var text = varDivs[y].innerText;
+										hi.appendChild(text);
 										resultDiv.appendChild(hi); 
 									}
 									else { var text = varDivs[y].innerText;
