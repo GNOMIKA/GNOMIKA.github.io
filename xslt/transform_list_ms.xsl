@@ -45,21 +45,6 @@
 						if (index != -1) {
 							const resultDiv = document.createElement("div");
 							resultDiv.appendChild(divs[i]);
-							/*var varDivs = divs[i].childNodes; 
-
-
-							for (var y = 0; y &lt; varDivs.length; y++) {
-									if (varDivs[y].nodeName == 'HI' &amp;&amp; varDivs[y].innerText != null) {
-										const hi = document.createElement("hi");
-										var text = document.createTextNode(varDivs[y].innerText);
-										hi.appendChild(text);
-										resultDiv.appendChild(hi); 
-									}
-									else { var text = document.createTextNode(varDivs[y].nodeValue);
-							resultDiv.appendChild(text);
-							}*/
-							}
-							
 							
 							element.appendChild(resultDiv);
 								
