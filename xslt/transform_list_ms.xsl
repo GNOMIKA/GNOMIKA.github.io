@@ -44,8 +44,8 @@
 								
 						if (index != -1) {
 							const resultDiv = document.createElement("div");
-							
-							var varDivs = divs[i].childNodes; 
+							resultDiv.appendChild(divs[i]);
+							/*var varDivs = divs[i].childNodes; 
 
 
 							for (var y = 0; y &lt; varDivs.length; y++) {
@@ -57,7 +57,7 @@
 									}
 									else { var text = document.createTextNode(varDivs[y].nodeValue);
 							resultDiv.appendChild(text);
-							}
+							}*/
 							}
 							
 							
