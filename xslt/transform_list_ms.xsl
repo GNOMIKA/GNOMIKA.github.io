@@ -11,6 +11,7 @@
 				<script><xsl:text>function search() {
 					
 					console.log("enter search funktion");
+
 					var old_search_result = document.getElementById("search_result");
 
 					if (old_search_result != null) {  
@@ -19,6 +20,11 @@
 
 					var name = document.getElementById("searchForm").elements["searchItem"].value;
 					
+
+				  console.log("searched value:");
+					console.log(name);
+
+
 					var pattern = name.toLowerCase();
 					
 					var targetId = "";
