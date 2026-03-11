@@ -1,30 +1,26 @@
 $(function(){
-    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">Manuscripts</a></li> <li><a href=\"collections.html\">Transcriptions</a></li><li><a href=\"concordance.html\">Concordance</a></li><li><a href=\"bibliography.html\">Bibliography</a></li><li><a href=\"contact.html\">Contact<a></li></ul></nav></div>").
+    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">Manuscripts</a></li> <li><a href=\"collections.html\">Transcriptions</a></li><li><a href=\"concordance.html\">Concordance</a></li></ul></nav></div>").
     prependTo(".dummyHeader");
   });
 
   document.addEventListener("DOMContentLoaded", function() {
   var tests = document.getElementsByClassName("toggleButton");
-  var element = document.getElementById("search_result");
+/**   var element = document.getElementById("search_result");
   console.log(element);
   if (element != null) {
     element.remove();
-  }
+  }*/
 for(i = 0; i < tests.length; i++) {
-    console.log(i);
-    tests[i].addEventListener('click', function() {
-    console.log(this.className);
-    console.log(this.getAttribute('value'));
-    var id = this.getAttribute('value');
-    this.classList.toggle("checked");
-    const container = document.getElementById(id);
-    container.classList.toggle("display-none");
-    
     var old_search_result = document.getElementById("search_result");
 
 	if (old_search_result != null) {  
 		old_search_result.remove();
 	}
+    tests[i].addEventListener('click', function() {
+    var id = this.getAttribute('value');
+    this.classList.toggle("checked");
+    const container = document.getElementById(id);
+    container.classList.toggle("display-none");
 }); 
       
 }

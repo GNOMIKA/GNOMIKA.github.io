@@ -24,7 +24,7 @@
 
 
 <!--        <xsl:variable translation select="document('translation')"/>-->
-ååara
+
 	</xsl:template>
 
 
@@ -110,10 +110,7 @@ Is related to
 			        <xsl:for-each select="$arr">
 					<xsl:element name="wit">
 					 <xsl:value-of select="substring-after(., '#')"/>
-					 <!--<xsl:value-of select="BU"/>-->
-					 <!--<xsl:variable name="witloc" select="substring-after(., '#')"/>
-						<xsl:value-of select="document('C:\Users\pontu\GNOMIKA\xslt\sawsEdGr.E-Apophthegmata.sawsEd_App.xml')//tei:listWit/tei:witness[@xml:id=$witloc]"/>-->
-				    </xsl:element>
+					</xsl:element>
 					</xsl:for-each>	
 					<xsl:if test="./tei:rdg or ./tei:note">:</xsl:if>
 				<xsl:for-each select="./tei:rdg">
@@ -125,10 +122,7 @@ Is related to
 			        <xsl:for-each select="$arr">
 					<xsl:element name="wit">
 					 <xsl:value-of select="substring-after(., '#')"/>
-					 <!--<xsl:value-of select="BU"/>-->
-					 <!--<xsl:variable name="witloc" select="substring-after(., '#')"/>
-						<xsl:value-of select="document('C:\Users\pontu\GNOMIKA\xslt\sawsEdGr.E-Apophthegmata.sawsEd_App.xml')//tei:listWit/tei:witness[@xml:id=$witloc]"/>-->
-				    </xsl:element>
+					 </xsl:element>
 					</xsl:for-each>	
 			    </xsl:for-each>
 				
