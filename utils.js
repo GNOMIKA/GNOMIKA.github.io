@@ -13,7 +13,9 @@ $(function(){
 for(i = 0; i < tests.length; i++) {
     
     tests[i].addEventListener('click', function() {
-        var old_search_result = document.getElementById("search_result");
+    
+    // Kolla om det finns ett sökresultat och plocka isf bort detta
+    var old_search_result = document.getElementById("search_result");
 
 	if (old_search_result != null) {  
 		old_search_result.remove();

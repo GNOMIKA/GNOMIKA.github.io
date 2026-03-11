@@ -10,6 +10,7 @@
 				<script src="utils.js"></script>
 				<script><xsl:text>function search() {
 					
+					console.log("enter search funktion");
 					var old_search_result = document.getElementById("search_result");
 
 					if (old_search_result != null) {  
@@ -33,9 +34,6 @@
 					var element = document.createElement("div");
 					element.setAttribute("id","search_result");
 					var main_b = document.getElementById("main_b");
-							
-
-          
 
 					for (var i = 0; i &lt; divs.length; i++) {
 							console.log(divs.length);
