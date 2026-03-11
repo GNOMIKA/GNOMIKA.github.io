@@ -11,12 +11,13 @@ $(function(){
     element.remove();
   }*/
 for(i = 0; i < tests.length; i++) {
-    var old_search_result = document.getElementById("search_result");
+    
+    tests[i].addEventListener('click', function() {
+        var old_search_result = document.getElementById("search_result");
 
 	if (old_search_result != null) {  
 		old_search_result.remove();
 	}
-    tests[i].addEventListener('click', function() {
     var id = this.getAttribute('value');
     this.classList.toggle("checked");
     const container = document.getElementById(id);
